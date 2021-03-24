@@ -89,12 +89,12 @@ body {
 }
 @media only screen and (min-width: 1440px) {
     body {
-        background: url('images/bg-pattern-bottom.svg') no-repeat 142% -456%,
+        background: url('images/bg-pattern-bottom.svg') no-repeat 142% -228%,
         url('images/bg-pattern-top.svg') no-repeat  -60% 294%,
         hsl(185, 75%, 39%);
     }
     .container {
-        padding: 100px 558px 0;
+        padding: 90px 558px 0;
     }
 }
 
