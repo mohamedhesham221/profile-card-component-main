@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;;
+}
+body {
+    background:  
+    url('images/bg-pattern-bottom.svg') no-repeat -26% -67%,
+    url('images/bg-pattern-top.svg') no-repeat  131% 173%,
+    hsl(185, 75%, 39%)
+}
+.container {
+    width: 100%;
+    min-height: 500px;
+    padding: 0 25px 0;
+}
+.card {
+    width: 100%;
+    margin: 140px auto;
+    position: relative;
+}
+.card .top_card {
+    width: 100%;
+    height: 150px;
+    background-image: url('images/bg-pattern-card.svg');
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card .bottom_card {
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+}
+.card .bottom_card .name{
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+}
+.card .bottom_card .age {
+    color: hsl(0, 0%, 59%);
+}
+.card .bottom_card .city {
+    color: hsl(0, 0%, 59%);
+    font-size: .8rem;
+}
+.stats {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    margin-top: 20px;
+}
+.col {
+    width: 33.3%;
+    text-align: center;
+}
+.col h4 {
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+.col span {
+    color: hsl(227, 10%, 46%);
+    font-size: .7rem;
+}
+.card #image {
+    position: absolute;
+    top: 92px;
+    left: 110px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+@media only screen and (max-width: 320px) {
+    .card #image {
+        left: 85px;
+    }
+}
+@media only screen and (min-width: 1440px) {
+    body {
+        background: url('images/bg-pattern-bottom.svg') no-repeat 142% -456%,
+        url('images/bg-pattern-top.svg') no-repeat  -60% 294%,
+        hsl(185, 75%, 39%);
+    }
+    .container {
+        padding: 166px 558px 0;
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
