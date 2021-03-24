@@ -19,6 +19,7 @@ body {
     width: 100%;
     margin: 140px auto;
     position: relative;
+    filter: drop-shadow(0px 0px 15px #0009);
 }
 .card .top_card {
     width: 100%;
@@ -89,12 +90,12 @@ body {
 }
 @media only screen and (min-width: 1440px) {
     body {
-        background: url('images/bg-pattern-bottom.svg') no-repeat 142% -228%,
-        url('images/bg-pattern-top.svg') no-repeat  -60% 294%,
+        background: url('images/bg-pattern-bottom.svg') no-repeat 158% -150%,
+        url('images/bg-pattern-top.svg') no-repeat  -57% 231%,
         hsl(185, 75%, 39%);
     }
     .container {
-        padding: 50px 558px 0;
+        padding: 38px 558px 0;
     }
 }
 
