@@ -8,7 +8,7 @@ body {
     background:  
     url('images/bg-pattern-bottom.svg') no-repeat -26% -67%,
     url('images/bg-pattern-top.svg') no-repeat  131% 173%,
-    hsl(185, 75%, 39%)
+    hsl(185, 75%, 39%) ;
 }
 .container {
     width: 100%;
@@ -95,6 +95,13 @@ body {
     body {
         background: url('images/bg-pattern-bottom.svg') no-repeat 875% -132%,
         url('images/bg-pattern-top.svg') no-repeat  -942% 173%,
+        hsl(185, 75%, 39%);
+    }
+}
+@media only screen and (min-width: 1280px) {
+    body {
+        background: url('images/bg-pattern-bottom.svg') no-repeat 158% -132%,
+        url('images/bg-pattern-top.svg') no-repeat  -120% 173%,
         hsl(185, 75%, 39%);
     }
 }
